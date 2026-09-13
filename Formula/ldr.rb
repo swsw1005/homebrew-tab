@@ -1,7 +1,7 @@
 class Ldr < Formula
   desc "Runtime-aware local development task launcher"
   homepage "https://github.com/swsw1005/local-dev-launcher"
-  version "0.1.0"
+  version "0.2.0"
 
   on_macos do
     on_arm do
