@@ -1,17 +1,17 @@
 class Ldr < Formula
   desc "Runtime-aware local development task launcher"
   homepage "https://github.com/swsw1005/local-dev-launcher"
-  version "0.3.0"
+  version "0.4.0"
 
   on_macos do
     on_arm do
       url "https://github.com/swsw1005/local-dev-launcher/releases/download/v#{version}/ldr_#{version}_darwin_arm64.tar.gz"
-      sha256 "59801ae625cce46d34c80b542cb729848158c4dc7439eca1fda224224e76ed86"
+      sha256 "a5124143f74ec479132435aa22618251253ca51e7e2533a69466b0c404b7e76e"
     end
 
     on_intel do
       url "https://github.com/swsw1005/local-dev-launcher/releases/download/v#{version}/ldr_#{version}_darwin_amd64.tar.gz"
-      sha256 "d07aeff29ed78836e0955d7c22abae8341c02d7e3d7f3d52763550450d906efe" 
+      sha256 "951a17667a0893290a2f266a31ee3722bcbe8f3366a84df67944ba557630b327" 
     end
   end
 
